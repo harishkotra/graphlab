@@ -1,0 +1,87 @@
+// This file acts as a registry for all available animations.
+// It maps a topic name to a function that dynamically imports the animation module.
+// This allows for code splitting, so we only load the animation code we need.
+
+type AnimationModule = () => Promise<any>;
+
+export const animationMap: Record<string, AnimationModule> = {
+  'Breadth First Traversal (BFS)': () => import('./bfs'),
+  'Depth First Traversal (DFS)': () => import('./dfs'),
+  'Difference between BFS and DFS': () => import('./difference-bfs-dfs'),
+  'Dijkstra\'s Shortest Path Algorithm': () => import('./dijkstra'),
+  'Kruskal\'s Minimum Spanning Tree (MST)': () => import('./kruskal'),
+  'Bellman–Ford Algorithm': () => import('./bellman-ford'),
+  'Floyd Warshall Algorithm': () => import('./floyd-warshall'),
+  'Shortest path in an unweighted graph': () => import('./shortest-path-unweighted'),
+  '0-1 BFS (Shortest Path)': () => import('./zero-one-bfs'),
+  // Cycle Detection
+  'Cycle in a Directed Graph': () => import('./cycle-detection-colors'),
+  'Cycle in a Graph using Colors': () => import('./cycle-detection-colors'),
+  'Cycle in an Undirected Graph': () => import('./cycle-detection-undirected'),
+  'Negative Cycle in a Graph (Bellman Ford)': () => import('./negative-cycle-bellman-ford'),
+  'Cycles of length N': () => import('./cycles-of-length-n'),
+  'Minimum weight cycle': () => import('./min-weight-cycle'),
+  'Minimum mean weight cycle algorithm': () => import('./min-mean-weight-cycle'),
+  // Other BFS/DFS Applications
+  'Clone a Directed Acyclic Graph': () => import('./clone-dag'),
+  'Number of Islands in a Graph': () => import('./number-of-islands'),
+  'Check for Bipartite Graph': () => import('./check-bipartite'),
+  'Clone a Graph': () => import('./clone-graph'),
+  'Transitive Closure of a Graph using DFS': () => import('./transitive-closure-dfs'),
+  'Rotten Tomatoes Problem': () => import('./rotten-tomatoes'),
+  'Flood Fill Algorithm': () => import('./flood-fill'),
+  'Word Ladder Problem': () => import('./word-ladder'),
+  'Snakes and Ladder Problem': () => import('./snakes-and-ladder'),
+  'Water Jug Problem': () => import('./water-jug'),
+  'Pacific Atlantic Water Flow': () => import('./pacific-atlantic'),
+  'Shortest Path in Binary Matrix': () => import('./shortest-path-binary-matrix'),
+  // DSU
+  'Disjoint Set Data Structure (Union-Find)': () => import('./dsu'),
+  // More Shortest Path
+  'Johnson\'s Algorithm': () => import('./johnson'),
+  'Dial\'s Algorithm': () => import('./dial'),
+  'D\'Esopo-Pape Algorithm': () => import('./desopo-pape'),
+  'Multistage Graph Shortest Path': () => import('./multistage-graph'),
+  'Shortest Path in Directed Acyclic Graph': () => import('./shortest-path-dag'),
+  // MST
+  'Prim\'s Minimum Spanning Tree (MST)': () => import('./prims'),
+  'Prim\'s vs Kruskal\'s algorithm for MST': () => import('./compare-prims-kruskals'),
+  'Applications of Minimum Spanning Tree': () => import('./applications-mst'),
+  'Minimum cost to connect all cities': () => import('./min-cost-cities'),
+  'Total number of Spanning Trees in a Graph': () => import('./total-spanning-trees'),
+  'Minimum Product Spanning Tree': () => import('./min-product-mst'),
+  'Reverse Delete Algorithm for MST': () => import('./reverse-delete'),
+  'Boruvka\'s algorithm for MST': () => import('./boruvkas'),
+  // Topological Sorting
+  'Topological Sorting': () => import('./topological-sorting'),
+  'All topological sorts of a DAG': () => import('./all-topological-sorts'),
+  'Kahn\'s Algorithm for Topological Sorting': () => import('./kahns-algorithm'),
+  'Maximum edges to add to DAG': () => import('./max-edges-dag'),
+  'Longest Path in a DAG': () => import('./longest-path-dag'),
+  'Topological Sort using departure time': () => import('./topological-sort-dfs'),
+  'Find Itinerary from tickets': () => import('./find-itinerary'),
+  // Max Flow
+  'Max Flow Problem Introduction': () => import('./max-flow-intro'),
+  'Ford-Fulkerson Algorithm': () => import('./ford-fulkerson'),
+  'Dinic\'s algorithm': () => import('./dinics-algorithm'),
+  'Push Relabel Algorithm': () => import('./push-relabel'),
+  'Minimum s-t cut': () => import('./min-st-cut'),
+  'Max edge disjoint paths': () => import('./edge-disjoint-paths'),
+  'Maximum Bipartite Matching': () => import('./max-bipartite-matching'),
+  'Channel Assignment Problem': () => import('./channel-assignment'),
+  'Karger\'s Algorithm': () => import('./kargers-algorithm'),
+  // Connectivity
+  'Articulation Points (or Cut Vertices)': () => import('./articulation-points'),
+  'Biconnected Components': () => import('./biconnected-components'),
+  'Bridges in a graph': () => import('./bridges'),
+  'Eulerian path and circuit': () => import('./eulerian-path-circuit'),
+  'Fleury\'s Algorithm for Eulerian Path': () => import('./fleurys-algorithm'),
+  'Strongly Connected Components': () => import('./strongly-connected-components'),
+  'Count walks with k edges': () => import('./count-walks-k-edges'),
+  'Euler Circuit in a Directed Graph': () => import('./euler-circuit-directed'),
+  'Shortest chain to reach target word': () => import('./shortest-chain-target-word'),
+  'Chained strings to form a circle': () => import('./chained-strings-form-circle'),
+  'Tarjan\'s Algorithm for SCC': () => import('./tarjans-algorithm-scc'),
+  'Seven Bridges of Königsberg': () => import('./seven-bridges-konigsberg'),
+  'Dynamic Connectivity': () => import('./dynamic-connectivity'),
+};

@@ -1,0 +1,121 @@
+import type { TopicCategory } from './types';
+
+export const graphTopics: TopicCategory[] = [
+  {
+    category: 'Basics',
+    topics: [
+      { name: 'Graph and its representations' },
+    ],
+  },
+  {
+    category: 'BFS & DFS',
+    topics: [
+      { name: 'Breadth First Traversal (BFS)' },
+      { name: 'Depth First Traversal (DFS)' },
+      { name: 'Difference between BFS and DFS' },
+      { name: 'Rotten Tomatoes Problem' },
+      { name: 'Number of Islands in a Graph' },
+      { name: 'Flood Fill Algorithm' },
+      { name: 'Check for Bipartite Graph' },
+      { name: 'Word Ladder Problem' },
+      { name: 'Snakes and Ladder Problem' },
+      { name: 'Water Jug Problem' },
+      { name: 'Pacific Atlantic Water Flow' },
+      { name: 'Shortest Path in Binary Matrix' },
+      { name: 'Clone a Graph' },
+      { name: 'Transitive Closure of a Graph using DFS' },
+    ],
+  },
+  {
+    category: 'Cycles',
+    topics: [
+      { name: 'Cycle in a Directed Graph' },
+      { name: 'Cycle in an Undirected Graph' },
+      { name: 'Cycle in a Graph using Colors' },
+      { name: 'Negative Cycle in a Graph (Bellman Ford)' },
+      { name: 'Cycles of length N' },
+      { name: 'Minimum weight cycle' },
+      { name: 'Minimum mean weight cycle algorithm' },
+      { name: 'Clone a Directed Acyclic Graph' },
+    ],
+  },
+  {
+    category: 'Disjoint Set Union',
+    topics: [
+      { name: 'Disjoint Set Data Structure (Union-Find)' },
+    ],
+  },
+  {
+    category: 'Shortest Path',
+    topics: [
+      { name: 'Shortest path in an unweighted graph' },
+      { name: 'Dijkstra\'s Shortest Path Algorithm' },
+      { name: 'Bellman–Ford Algorithm' },
+      { name: 'Floyd Warshall Algorithm' },
+      { name: 'Johnson\'s Algorithm' },
+      { name: 'Shortest Path in Directed Acyclic Graph' },
+      { name: 'Dial\'s Algorithm' },
+      { name: 'D\'Esopo-Pape Algorithm' },
+      { name: 'Multistage Graph Shortest Path' },
+      { name: '0-1 BFS (Shortest Path)' },
+    ],
+  },
+  {
+    category: 'Minimum Spanning Tree',
+    topics: [
+      { name: 'Prim\'s Minimum Spanning Tree (MST)' },
+      { name: 'Kruskal\'s Minimum Spanning Tree (MST)' },
+      { name: 'Prim\'s vs Kruskal\'s algorithm for MST' },
+      { name: 'Applications of Minimum Spanning Tree' },
+      { name: 'Minimum cost to connect all cities' },
+      { name: 'Total number of Spanning Trees in a Graph' },
+      { name: 'Minimum Product Spanning Tree' },
+      { name: 'Reverse Delete Algorithm for MST' },
+      { name: 'Boruvka\'s algorithm for MST' },
+    ],
+  },
+  {
+    category: 'Topological Sorting',
+    topics: [
+      { name: 'Topological Sorting' },
+      { name: 'All topological sorts of a DAG' },
+      { name: 'Kahn\'s Algorithm for Topological Sorting' },
+      { name: 'Maximum edges to add to DAG' },
+      { name: 'Longest Path in a DAG' },
+      { name: 'Topological Sort using departure time' },
+      { name: 'Find Itinerary from tickets' },
+    ],
+  },
+  {
+    category: 'Connectivity',
+    topics: [
+      { name: 'Articulation Points (or Cut Vertices)' },
+      { name: 'Biconnected Components' },
+      { name: 'Bridges in a graph' },
+      { name: 'Eulerian path and circuit' },
+      { name: 'Fleury\'s Algorithm for Eulerian Path' },
+      { name: 'Strongly Connected Components' },
+      { name: 'Count walks with k edges' },
+      { name: 'Euler Circuit in a Directed Graph' },
+      { name: 'Shortest chain to reach target word' },
+      { name: 'Chained strings to form a circle' },
+      { name: 'Tarjan\'s Algorithm for SCC' },
+      { name: 'Seven Bridges of Königsberg' },
+      { name: 'Dynamic Connectivity' },
+    ],
+  },
+  {
+    category: 'Maximum Flow',
+    topics: [
+      { name: 'Max Flow Problem Introduction' },
+      { name: 'Ford-Fulkerson Algorithm' },
+      { name: 'Max edge disjoint paths' },
+      { name: 'Minimum s-t cut' },
+      { name: 'Maximum Bipartite Matching' },
+      { name: 'Channel Assignment Problem' },
+      { name: 'Push Relabel Algorithm' },
+      { name: 'Karger\'s Algorithm' },
+      { name: 'Dinic\'s algorithm' },
+    ],
+  }
+];
