@@ -9,6 +9,13 @@ GraphLab is an interactive web application designed to make learning graph theor
 
 Whether you're a student, a self-taught developer, or a seasoned engineer looking to refresh your knowledge, GraphLab provides the visual and conceptual tools you need to master graph theory.
 
+<img width="1636" height="3165" alt="screencapture-localhost-3000-2025-11-09-20_46_41" src="https://github.com/user-attachments/assets/aea744d3-6957-46e7-a0a1-caf5a5cd79e1" />
+<img width="1925" height="1261" alt="Screenshot at Nov 09 20-48-10" src="https://github.com/user-attachments/assets/f0f9885b-1853-4663-8e68-85659f08ac41" />
+
+https://github.com/user-attachments/assets/8a8c9541-1899-4c82-84a1-60c27c4e73c6
+
+
+
 ## ✨ Key Features
 
 -   **Interactive Visualizations:** Watch algorithms unfold step-by-step with intuitive animations. Control the pace with play, pause, next, and previous buttons.
