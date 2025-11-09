@@ -91,7 +91,7 @@ const App: React.FC = () => {
         </main>
         
         <footer className="p-3 bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 text-center text-sm text-gray-600 dark:text-gray-400">
-          <a href="https://github.com/google-gemini/generative-ai-samples/tree/main/graph-theory-visualizer" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+          <a href="https://github.com/harishkotra/graphlab" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
             <GithubIcon />
             <span>Contribute on GitHub</span>
           </a>

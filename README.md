@@ -37,14 +37,10 @@ GraphLab provides animations and explanations for a wide array of topics, includ
 
 ## 🛠️ Technology Stack
 
--   **Frontend:**  [React](https://www.google.com/url?sa=E&q=https%3A%2F%2Freact.dev%2F) with [TypeScript](https://www.google.com/url?sa=E&q=https%3A%2F%2Fwww.typescriptlang.org%2F)
-    
--   **Styling:**  [Tailwind CSS](https://www.google.com/url?sa=E&q=https%3A%2F%2Ftailwindcss.com%2F)
-    
--   **AI Model:**  [Google Gemini API](https://www.google.com/url?sa=E&q=https%3A%2F%2Fai.google.dev%2F) (@google/genai)
-    
+-   **Frontend:**  [React](https://react.dev) with [TypeScript](https://www.typescriptlang.org)
+-   **Styling:**  [Tailwind CSS](https://tailwindcss.com)
+-   **AI Model:**  [Google Gemini API](https://ai.google.dev) (@google/genai)
 -   **Build Tool:** Vite (or similar modern bundler)
-    
 
 ## 🚀 Getting Started
 
@@ -52,9 +48,8 @@ You can run your own instance of GraphLab locally.
 
 ### Prerequisites
 
--   [Node.js](https://www.google.com/url?sa=E&q=https%3A%2F%2Fnodejs.org%2F) (v18 or later)
-    
--   A Google Gemini API Key. You can get one from [Google AI Studio](https://www.google.com/url?sa=E&q=https%3A%2F%2Faistudio.google.com%2Fapp%2Fapikey).
+-   [Node.js](https://nodejs.org) (v18 or later)
+-   A Google Gemini API Key. You can get one from [Google AI Studio](https://aistudio.google.com/app/apikey).
     
 
 ### Installation

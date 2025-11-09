@@ -32,7 +32,7 @@ export const HomePage: React.FC = () => (
             This project is open source and we welcome contributions! Whether you want to add a new algorithm, fix a bug, or improve an explanation, your help is appreciated.
           </p>
           <a 
-            href="https://github.com/google-gemini/generative-ai-samples/tree/main/graph-theory-visualizer" 
+            href="https://github.com/harishkotra/graphlab" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
